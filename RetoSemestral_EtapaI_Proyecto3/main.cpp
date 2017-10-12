@@ -1,15 +1,23 @@
-//
-//  main.cpp
-//  RetoSemestral_EtapaI_Proyecto3
-//
-//  Created by Angel Trevino on 10/12/17.
-//  Copyright © 2017 Angel Odiel Treviño Villanueva. All rights reserved.
-//
+/*
+    Angel Odiel Treviño Villanueva
+    A01336559
+    Estructura de Datos
+    Reto Semestral 
+    Odd Linkedlist 
+ */
 
 #include <iostream>
+#include "Lista.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    
+    Lista <int> L;
+    L.insertaInicio(5);
+    L.insertaInicio(2);
+    L.insertaInicio(8);
+    L.insertaFinal(3);
+    //L.oddEvenList(L); //no se que poner para que no tenga errores de compilacion
+    L.muestra();
     return 0;
 }
+

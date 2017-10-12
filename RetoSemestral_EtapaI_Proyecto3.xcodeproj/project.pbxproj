@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		0BCEA3011F8FBA41008635A1 /* RetoSemestral_EtapaI_Proyecto3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RetoSemestral_EtapaI_Proyecto3; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCEA3041F8FBA41008635A1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0BCEA30C1F8FBAD0008635A1 /* Lista.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Lista.h; path = ../Lista.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				0BCEA3041F8FBA41008635A1 /* main.cpp */,
+				0BCEA30C1F8FBAD0008635A1 /* Lista.h */,
 			);
 			path = RetoSemestral_EtapaI_Proyecto3;
 			sourceTree = "<group>";
